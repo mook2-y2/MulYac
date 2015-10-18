@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MulYac</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+
+    <!-- Title -->
+    <string name="title_activity_register">RegisterActivity</string>
+    <!-- Description -->
+    <string name="description_splash">splash</string>
+    <string name="description_edit">edit</string>
+
+    <!-- Button -->
+    <string name="signin_register_button">Register</string>
+    <string name="title_activity_mulyac">MulyacActivity</string>
+
+    <!-- Edit Hint -->
+    <string name="name_hint">Your ID</string>
+    <string name="region_hint">Region(ex: Toilet, Kitchen)</string>
+    <string name="title_activity_accelerator">AcceleratorActivity</string>
+    <string name="title_activity_view">ViewActivity</string>
+</resources>

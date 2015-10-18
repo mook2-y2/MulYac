@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/volley/volley.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="64b254007a541d820629ffb32263cdd1b6151655">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/volley-907725e6430a6e17bb052299eea1526c8a1dd68f.jar" />
+    </item>
+    <item
+        jar="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/exploded-aar/mulyac-android-client/usbSerialForAndroid-release/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="658891145925a93d297187c163269eabfa5203aa">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/classes-d808438b0a802ac10bce51ee8925426d4a02935f.jar" />
+    </item>
+    <item
+        jar="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/libs/internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/internal_impl-22.2.0-664b65d53e445a3c8db966218e6cf6f351eecac5.jar" />
+    </item>
+    <item
+        jar="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/classes-79be89be8012a103f33371b0dedc7dfc65f98c33.jar" />
+    </item>
+    <item
+        jar="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/classes-5129ae7d840f4a5b44d84fbbe8a2a655e475cf9e.jar" />
+    </item>
+    <item
+        jar="/Users/Byungmook/Documents/Developer/android-sdk-macosx/extras/android/m2repository/com/android/support/support-annotations/22.2.0/support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="/Users/Byungmook/Documents/Lecture/KAIST/2015.2/MulYac/dev/projects/mulyac-android-client/app/build/intermediates/pre-dexed/debug/support-annotations-22.2.0-9c94c77ac6934443078e2ae1fc6472c0f997e4a2.jar" />
+    </item>
+
+</items>

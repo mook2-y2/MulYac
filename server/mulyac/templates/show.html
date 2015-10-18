@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html class="login-bg">
+<head>
+	<title>MULYAC</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css"/>
+	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css' />
+
+	<script src="http://code.jquery.com/jquery-2.1.3.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+	{% load staticfiles %}
+	<link rel='stylesheet' href="{% static "c3.css" %}" />
+	<script src="{% static "c3.js" %}"></script>
+	<script src="{% static "pubnub-c3.js" %}"></script>
+	
+
+	
+</head>
+
+<body>
+	<div id="count"></div>
+
+</body>
+
+
+<script type="text/javascript" charset='euc-kr'>
+//setTimeout(function(){ location.reload(); }, 1000);
+var usages = {{usages|safe}}
+for(i=0; i<usages.length; i++){
+	var day = usages[i].datetime.toString().substr(0,6);
+	var time = usages[i].datetime.toString().substr(6,12);	
+}
+
+var count = 0;
+for(i=0; i<{{usages|safe}}.length; i++){
+	count = count +1;
+}
+addCount(count);
+function addCount(count){
+	$("#count").append(count);
+}
+</script>
+
+<style>
+body{
+	background: #3498db
+}
+#count{
+	text-align: center;
+	font-size: 300px;
+	color: white;
+}
+</style>
+
+</html>
